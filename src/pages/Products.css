@@ -1,0 +1,160 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+}
+
+.main-content {
+  flex: 1;
+  padding: 32px;
+  background-color: #081028;
+  color: #e2e8f0;
+  margin-left: 0;
+  overflow-x: auto;
+  width: 100%;
+  min-width: 0;
+}
+
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.products-header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f8fafc;
+}
+
+.page-description {
+  color: #94a3b8;
+}
+
+.search-container {
+  display: flex;
+  gap: 12px;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  background-color: #101935;
+  padding: 8px 12px;
+  border-radius: 6px;
+  gap: 8px;
+}
+
+.search-input input {
+  background: transparent;
+  border: none;
+  color: #e2e8f0;
+  outline: none;
+  width: 200px;
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #101935;
+  color: #e2e8f0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.products-table-container {
+  background-color: #101935;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.12);
+}
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.products-table th,
+.products-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #232b43;
+}
+
+.products-table th {
+  color: #bfc9da;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-badge.book {
+  background-color: rgba(174, 185, 225, 0.1);
+  color: #aeb9e1;
+}
+
+.status-badge.stock {
+  background-color: rgba(200, 95, 252, 0.1);
+  color: #c85ffc;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  color: #bfc9da;
+  cursor: pointer;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.pagination-info {
+  display: flex;
+  align-items: center;
+}
+
+.page-count {
+  margin-right: auto;
+  color: #555; 
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+}
+
+.rows-per-page {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f9fa; 
+  color: #555; 
+}
+
+.pagination-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #555; 
+  margin: 0 0.25rem;
+}
+
+.pagination-button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
