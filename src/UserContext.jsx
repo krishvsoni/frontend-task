@@ -6,7 +6,7 @@ export const UserProvider = ({ children }) => {
   const [userInfo, setUserInfo] = useState({
     fullName: "John Carter",
     email: "john@dashdark.com",
-    photo: "https://c.animaapp.com/mb540qadkyydE0/img/group-39488.png",
+    photo: "/public/group.png",
     bio: "",
   });
 

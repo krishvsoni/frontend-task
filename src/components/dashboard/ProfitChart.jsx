@@ -12,7 +12,7 @@ const data = [
   { time: "2 PM", profit: 25000 },
   { time: "4 PM", profit: 144600 },
   { time: "6 PM", profit: 50000 },
-  { time: "8 PM", profit: 60000 },
+  { time: "8 PM", profit: 120000 },
   { time: "10 PM", profit: 70000 },
   { time: "11 PM", profit: 80000 },
 ];

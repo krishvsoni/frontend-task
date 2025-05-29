@@ -6,7 +6,7 @@ const data = [
   { month: 'Jan', revenue: 195000, expenses: 20000, date: 'Jan 21, 2023', percent: 2.5 },
   { month: 'Feb', revenue: 30000, expenses: 22000, date: 'Feb 21, 2023', percent: 3.1 },
   { month: 'Mar', revenue: 50000, expenses: 35000, date: 'Mar 21, 2023', percent: 4.2 },
-  { month: 'Apr', revenue: 70000, expenses: 40000, date: 'Apr 21, 2023', percent: 5.8 },
+  { month: 'Apr', revenue: 280000, expenses: 40000, date: 'Apr 21, 2023', percent: 5.8 },
   { month: 'May', revenue: 100000, expenses: 60000, date: 'May 21, 2023', percent: 8.7 },
   { month: 'Jun', revenue: 195000, expenses: 90000, date: 'June 21, 2023', percent: 12.5 },
   { month: 'Jul', revenue: 150000, expenses: 120000, date: 'Jul 21, 2023', percent: 10.2 },
