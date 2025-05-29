@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { ChevronRight, Home, Settings, List } from "lucide-react";
 import { UserContext } from "../../src/UserContext";
-import "./sidebar.css";
+import "./Sidebar.css";
 export const Sidebar = () => {
   const { userInfo } = useContext(UserContext);
   const [isCollapsed, setIsCollapsed] = React.useState(false);
